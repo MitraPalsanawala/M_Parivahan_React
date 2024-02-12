@@ -1,0 +1,227 @@
+.card.card-custom>.card-header .card-title,
+.card.card-custom>.card-header .card-title .card-label {
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.css-2ulfj5-MuiTypography-root {
+    font-family: 'Poppins' !important;
+    font-weight: bold !important;
+
+}
+
+.css-1anx036 {
+    font-family: 'Poppins' !important;
+    font-weight: bold !important;
+
+}
+
+/* .css-1mbunh-MuiPaper-root {
+    box-shadow: none !important;
+} */
+.MuiPaper-root {
+    box-shadow: none !important;
+}
+
+.css-ig9rso-MuiToolbar-root {
+    padding-left: 0 !important;
+}
+
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root {
+    font-family: 'Poppins' !important;
+    font-size: 14px !important;
+    width: 100%;
+}
+
+.css-dx096b {
+    font-family: 'Poppins' !important;
+    font-size: 14px !important;
+    width: 100%;
+}
+
+/* .css-1ex1afd-MuiTableCell-root {
+    font-family: 'Poppins' !important;
+    padding: 10px !important;
+    line-height: 0.6 !important;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+} */
+.css-q34dxg {
+    font-family: 'Poppins' !important;
+    font-weight: 400 !important;
+}
+
+.assignvehicle {
+    width: 90%;
+    display: inline-block;
+}
+
+.assigndriver {
+    width: 90%;
+
+}
+
+.MuiTableCell-root .MuiTableCell-body .MuiTableCell-alignLeft .MuiTableCell-sizeMedium {
+    font-family: 'Poppins' !important;
+    padding: 10px !important;
+    line-height: 0.6 !important;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+}
+
+.css-pdct74-MuiTablePagination-selectLabel {
+    margin-bottom: 0 !important;
+}
+
+.MuiTableSortLabel-iconDirectionAsc {
+    display: none !important;
+}
+
+.css-levciy-MuiTablePagination-displayedRows {
+    margin-bottom: 0 !important;
+}
+
+.form-group label {
+    font-family: 'Poppins';
+}
+
+.header-menu .menu-nav>.menu-item>.menu-link .menu-text {
+    font-family: 'Poppins';
+}
+
+.css-1ex1afd-MuiTableCell-root:nth-child(2) {
+    text-align: center !important;
+}
+
+.css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon {
+    display: none !important;
+}
+
+.btn {
+    font-family: 'Poppins';
+}
+
+.form-control {
+    font-family: 'Poppins';
+}
+
+.swal2-container.swal2-center>.swal2-popup {
+    align-items: center !important;
+    display: flex !important;
+}
+
+.css-13cymwt-control {
+    font-family: 'Poppins' !important;
+}
+
+.css-1dimb5e-singleValue {
+    font-family: 'Poppins';
+}
+
+.css-qbdosj-Input {
+    font-family: 'Poppins';
+}
+
+.header-menu .menu-nav>.menu-item .menu-submenu>.menu-subnav>.menu-item>.menu-link .menu-text {
+    font-family: 'Poppins';
+}
+
+.css-13cymwt-control:hover {
+    border-color: black !important;
+}
+
+#react-select2 {
+    color: black !important;
+    font-family: 'Poppins' !important;
+}
+
+.css-d7l1ni {
+    color: black !important;
+    font-family: 'Poppins' !important;
+    border-color: black !important;
+    border: 1px solid !important;
+}
+
+.formgroupcss {
+    padding: 10px;
+    background: #edf0f3;
+    height: 100px;
+    margin-bottom: 0;
+}
+
+.tabletitle {
+    font-weight: 500;
+    font-size: 1.275rem;
+    color: #181C32;
+    font-family: 'Poppins';
+    margin-bottom: 0 !important;
+}
+
+.customtd {
+    font-family: 'Poppins' !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    padding: 3% !important;
+    margin-bottom: 0 !important;
+}
+
+.customnopaddingtd {
+    font-family: 'Poppins' !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    margin-bottom: 0 !important;
+}
+
+[data-feedback].error {
+    color: red;
+    font-weight: bold;
+}
+
+.text-danger {
+    color: red !important;
+    font-weight: bold !important;
+}
+
+[data-testid="material-table-column-sort-order-indicator"] {
+    display: none !important;
+}
+
+.checkbox-inline {
+    border: 1px solid;
+    padding: 1%;
+}
+
+.checkbox {
+    align-items: flex-start;
+}
+
+.checkbox>input {
+    opacity: 1;
+    margin-right: 11px;
+}
+
+.DetailGrid{
+    border:1px solid
+}
+
+.checkbox-inline .checkbox {
+    margin-bottom: 3%;
+  }
+  .startmodaldialog{
+    max-width: 80%;
+  }
+  
+  .react-datepicker__close-icon::after{
+    font-size: 14px !important;
+  }
+
+/* .css-d5sp9s-MuiTableCell-root{
+    padding-left: 5px !important;
+} */
+
+/* .css-1ex1afd-MuiTableCell-root {
+    padding-left: 2% !important;
+    text-align: left !important;
+} */
+/* <div class=" css-d7l1ni-option" aria-disabled="false" id="react-select-3-option-4" tabindex="-1" data-label-id="0">Srilanka</div> */
+/* <div class=" css-d7l1ni-option" aria-disabled="false" id="react-select-5-option-1" tabindex="-1" data-label-id="0">asasas</div> */

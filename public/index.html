@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+  <!--end::Fonts-->
+  <!--begin::Page Custom Styles(used by this page)-->
+  <link href="metronic/theme/html/demo7/dist/assets/plugins/custom/fullcalendar/fullcalendar.bundle5883.css?v=7.2.9"
+    rel="stylesheet" type="text/css" />
+  <!--end::Page Vendors Styles-->
+  <!--begin::Global Theme Styles(used by all pages)-->
+  <link href="metronic/theme/html/demo7/dist/assets/plugins/global/plugins.bundle5883.css?v=7.2.9" rel="stylesheet"
+    type="text/css" />
+  <link href="metronic/theme/html/demo7/dist/assets/plugins/custom/prismjs/prismjs.bundle5883.css?v=7.2.9"
+    rel="stylesheet" type="text/css" />
+  <link href="metronic/theme/html/demo7/dist/assets/css/style.bundle5883.css?v=7.2.9" rel="stylesheet"
+    type="text/css" />
+  <!--end::Global Theme Styles-->
+  <!--begin::Layout Themes(used by all pages)-->
+  <!--end::Layout Themes-->
+  <link rel="shortcut icon" href="Images/logo2.png" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> -->
+
+  <title>Metrro Waste Handling Pvt. Ltd.</title>
+
+</head>
+
+<body id="kt_body" class="header-fixed header-mobile-fixed header-bottom-enabled subheader-enabled">
+
+
+  <div id="root" style="height: 100%;"></div>
+
+  <!--end::Global Config-->
+  <!--begin::Global Theme Bundle(used by all pages)-->
+  <script>var KTAppSettings={ "breakpoints": { "sm": 576, "md": 768, "lg": 992, "xl": 1200, "xxl": 1200 }, "colors": { "theme": { "base": { "white": "#ffffff", "primary": "#6993FF", "secondary": "#E5EAEE", "success": "#1BC5BD", "info": "#8950FC", "warning": "#FFA800", "danger": "#F64E60", "light": "#F3F6F9", "dark": "#212121" }, "light": { "white": "#ffffff", "primary": "#E1E9FF", "secondary": "#ECF0F3", "success": "#C9F7F5", "info": "#EEE5FF", "warning": "#FFF4DE", "danger": "#FFE2E5", "light": "#F3F6F9", "dark": "#D6D6E0" }, "inverse": { "white": "#ffffff", "primary": "#ffffff", "secondary": "#212121", "success": "#ffffff", "info": "#ffffff", "warning": "#ffffff", "danger": "#ffffff", "light": "#464E5F", "dark": "#ffffff" } }, "gray": { "gray-100": "#F3F6F9", "gray-200": "#ECF0F3", "gray-300": "#E5EAEE", "gray-400": "#D6D6E0", "gray-500": "#B5B5C3", "gray-600": "#80808F", "gray-700": "#464E5F", "gray-800": "#1B283F", "gray-900": "#212121" } }, "font-family": "Poppins" };</script>
+
+  <script src="js/plugins.bundle5883.js"></script>
+  <script src="js/prismjs.bundle5883.js"></script>
+  <script src="js/scripts.bundle5883.js"></script>
+  <!--end::Global Theme Bundle-->
+  <!--begin::Page Scripts(used by this page)-->
+  <script src="js/login-general5883.js"></script>
+  <script>
+    // Class definition
+
+    var KTBootstrapDatepicker=function () {
+
+      var arrows;
+      arrows={
+        leftArrow: '<i class="la la-angle-left"></i>',
+        rightArrow: '<i class="la la-angle-right"></i>'
+      }
+
+      // Private functions
+      var demos=function () {
+        // minimum setup
+        $('#txtTaskDates').datepicker({
+          rtl: KTUtil.isRTL(),
+          todayHighlight: true,
+          orientation: "bottom left",
+          templates: arrows,
+          format: "dd-mm-yyyy",
+          startDate: "-0d",
+          // setDate: new Date(),
+          autoclose: true
+          // endDate: "+3d"
+        });
+
+      }
+
+      return {
+        // public functions
+        init: function () {
+          demos();
+        }
+      };
+    }();
+
+    jQuery(document).ready(function () {
+      KTBootstrapDatepicker.init();
+      $(".readonly").keydown(function(e){
+        e.preventDefault();
+    });
+    });
+  </script>
+   <script
+   src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyCHWhwpVwgDuwit10HARKJ2eS1IjrSmHeU&callback=initMap"
+   type="text/javascript"></script>
+</body>
+
+</html>
